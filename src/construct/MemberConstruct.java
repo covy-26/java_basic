@@ -12,7 +12,6 @@ public class MemberConstruct {
 //        this.grade = 50;
 
         // 동일 코드 개선
-        // 처음으로 실행되는 코드여야 컴파일 오류 방지
         this(name, age, 50);
     }
 
