@@ -1,6 +1,6 @@
-package poly2.ex3;
+package poly.ex6;
 
-public class Dog extends AbastractAnimal{
+public class Dog extends Animal{
     @Override
     public void sound() {
         System.out.println("왈왈");

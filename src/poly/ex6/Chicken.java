@@ -1,4 +1,4 @@
-package poly2.ex6;
+package poly.ex6;
 
 public class Chicken extends Animal implements Fly{
     @Override

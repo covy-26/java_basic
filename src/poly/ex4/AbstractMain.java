@@ -1,6 +1,6 @@
-package poly2.ex5;
+package poly.ex4;
 
-public class InterfaceMain {
+public class AbstractMain {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
@@ -12,7 +12,8 @@ public class InterfaceMain {
         soundAndMove(caw);
     }
 
-    private static void soundAndMove(Animal animal) {
+    // 변하지 않는 부분
+    private static void soundAndMove(AbastractAnimal animal) {
         System.out.println("테스트를 시작합니다.");
         animal.sound();
         animal.move();

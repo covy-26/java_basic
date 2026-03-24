@@ -1,4 +1,4 @@
-package poly2.ex4;
+package poly.ex3;
 
 public class AbstractMain {
 

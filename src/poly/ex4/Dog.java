@@ -1,4 +1,4 @@
-package poly2.ex4;
+package poly.ex4;
 
 public class Dog extends AbastractAnimal {
     @Override

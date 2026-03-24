@@ -1,4 +1,4 @@
-package poly2.ex3;
+package poly.ex3;
 
 public class Cat extends AbastractAnimal{
     @Override

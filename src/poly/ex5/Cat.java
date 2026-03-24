@@ -1,6 +1,8 @@
-package poly2.ex4;
+package poly.ex5;
 
-public class Cat extends AbastractAnimal {
+public class Cat implements Animal {
+
+
     @Override
     public void sound() {
         System.out.println("야옹");
@@ -8,6 +10,6 @@ public class Cat extends AbastractAnimal {
 
     @Override
     public void move() {
-        System.out.println("고양이가 움직입니다.");
+        System.out.println("고양이가 이동");
     }
 }

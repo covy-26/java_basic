@@ -1,4 +1,4 @@
-package poly2.Diamond;
+package poly.Diamond;
 
 public class DiamondMain {
 

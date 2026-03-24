@@ -1,4 +1,4 @@
-package poly2.ex5;
+package poly.ex5;
 
 public interface Animal {
     void sound();
