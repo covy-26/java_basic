@@ -1,33 +1,22 @@
 package poly.ex.pay1;
 
+import static poly.ex.pay1.PayStore.findPay;
+
 public class PayService {
 
     private Pay pay;
 
     public void processPay(String option, int amount) {
 
-        boolean isSuccess = false;
         System.out.println("결제를 시작합니다: option=" + option + ", amount=" + amount);
-
         pay = findPay(option);
 
-        if (pay != null) isSuccess = pay.pay(amount);
+        boolean isSuccess = pay.pay(amount);
 
         if (isSuccess) {
             System.out.println("결제가 성공했습니다.");
         } else {
             System.out.println("결제가 실패했습니다.");
-        }
-    }
-
-    public Pay findPay(String option) {
-
-        if (option.equals("kakao")) {
-           return new KakaoPay();
-        } else if (option.equals("naver")) {
-            return new NaverPay();
-        }else {
-            return null;
         }
     }
 }
